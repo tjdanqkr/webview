@@ -1,11 +1,12 @@
-import React from 'react';
 
+import React, { useEffect } from 'react';
+import "../css/Test.css";
 
 const Test =() =>{
-	return(
-		<div>
-			<input type="text"/>
-		</div>
+
+    
+    return(
+        <div className="App" id="map"></div>
 	);
 }
 
